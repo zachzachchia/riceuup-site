@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #4A8F69;
+  --accent-color: #F2E8CF;
+  --font: 'Segoe UI', Tahoma, sans-serif;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: var(--font);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: var(--accent-color);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  margin-top: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.hero p {
+  margin: 1rem 0;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+  padding: .8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.section {
+  padding: 4rem 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.product-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: var(--accent-color);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 260px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.btn-secondary {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: .7rem 1.2rem;
+  border-radius: 4px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
