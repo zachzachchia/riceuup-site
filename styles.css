@@ -208,16 +208,42 @@ h2.product-header {
   transition: transform 0.3s ease;
 }
 
+.product-card.ori {
+    background: #05aac9;
+    border: 1px solid #05aac9;
+}
+
+.ori h3 {
+    color: white;
+}
+
+.ori p {
+    color: #fff0f0;
+}
+
+.product-card.choco {
+    background: #633a1c;
+    border: 1px solid #633a1c;
+}
+
+.choco h3 {
+    color: white;
+}
+
+.choco p {
+    color: #fff0f0;
+}
+
 .product-card:hover {
   transform: translateY(-5px);
 }
 
 .product-card img {
-  width: 100%;
-  max-width: 180px;
-  height: auto;
-  border-radius: 16px;
-  margin-bottom: 1rem;
+    width: 100px;
+    max-width: 180px;
+    height: 200px;
+    border-radius: 16px;
+    margin-bottom: 1rem;
 }
 
 .product-card h3 {
