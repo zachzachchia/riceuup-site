@@ -214,11 +214,11 @@ h2.product-header {
 }
 
 .ori h3 {
-    color: white;
+    color: white!important;
 }
 
 .ori p {
-    color: #fff0f0;
+    color: #fff0f0!important;
 }
 
 .product-card.choco {
@@ -227,11 +227,11 @@ h2.product-header {
 }
 
 .choco h3 {
-    color: white;
+    color: white!important;
 }
 
 .choco p {
-    color: #fff0f0;
+    color: #fff0f0!important;
 }
 
 .product-card:hover {
