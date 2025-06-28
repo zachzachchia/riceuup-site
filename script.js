@@ -28,5 +28,5 @@ function prevSlide() {
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
-// Auto-slide every 4 seconds
-setInterval(nextSlide, 4000);
+// Auto-slide every 8 seconds
+setInterval(nextSlide, 8000);
