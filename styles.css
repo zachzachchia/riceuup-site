@@ -42,12 +42,14 @@ header {
 }
 
 .hero h1 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   color: var(--primary-color);
 }
 
 .hero p {
   margin: 1rem 0;
+  margin-bottom: 2.5rem;
+  font-size: 25px;
 }
 
 .btn-primary {
@@ -118,7 +120,7 @@ footer {
 
 .hero-text {
   flex: 1;
-  min-width: 280px;
+  min-width: 610px;
   text-align: left;
 }
 
