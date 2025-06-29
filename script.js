@@ -29,4 +29,4 @@ nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
 // Auto-slide every 8 seconds
-setInterval(nextSlide, 8000);
+setInterval(nextSlide, 6000);
