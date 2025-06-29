@@ -308,11 +308,6 @@ h2.product-header {
 }
 
 /* analytic section */
-.impact {
-  background: #f9f9f9;
-  padding: 4rem 1rem;
-}
-
 .impact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -323,14 +318,14 @@ h2.product-header {
 }
 
 .impact-item h3 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: var(--primary-color);
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
 .impact-item p {
-  font-size: 1rem;
-  color: #555;
+  font-size: 1.3rem;
+    color: #7a7a7a;
   margin: 0;
 }
