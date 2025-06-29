@@ -30,3 +30,21 @@ prevBtn.addEventListener('click', prevSlide);
 
 // Auto-slide every 8 seconds
 setInterval(nextSlide, 6000);
+
+// explain why rice up scroll section
+const scrollItems = document.querySelectorAll('.scroll-item');
+
+  window.addEventListener('scroll', () => {
+    let index = 0;
+
+    scrollItems.forEach((item, i) => {
+      const rect = item.getBoundingClientRect();
+      if (rect.top <= window.innerHeight / 2) {
+        index = i;
+      }
+    });
+
+    scrollItems.forEach((item, i) => {
+      item.style.backgroundImage = `url('${scrollItems[index].dataset.bg}')`;
+    });
+  });
