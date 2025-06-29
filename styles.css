@@ -390,13 +390,13 @@ h2.product-header {
     height: 70px;
   }
 
-/*   .hero h1 {
+/*    .hero h1 {
     font-size: 1.8rem;
-  }
+  } */
 
   .hero p {
     font-size: 18px;
-  } */
+  } 
 
   .hero-content {
   flex-direction: column-reverse;
