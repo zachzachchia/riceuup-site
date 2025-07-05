@@ -19,7 +19,7 @@ header {
 }
 
 header {
-  background: #d6eaf2;
+  background: url('/deck_background.png') no-repeat center center;
   text-align: center;
   padding: 2rem 1rem;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
