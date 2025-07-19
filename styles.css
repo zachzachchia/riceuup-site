@@ -568,3 +568,100 @@ img, svg {
     z-index: 1;
     width: 100%;
 }
+
+#column-wrap-id-1588219285371 {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.sppp-column-vertical-align {
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+}
+@media (min-width: 992px) {
+    .sppb-col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+#column-id-1588219285371 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 65px;
+    border-radius: 0px;
+}
+.sppb-column.sppb-align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center !important;
+}
+.sppb-column {
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.sppb-column, .sppb-column-addons {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+#sppb-addon-wrapper-1588565570520 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 21px;
+    margin-left: 0px;
+}
+#sppb-addon-1588565570520 {
+    color: #ff7e75;
+    border-radius: 0px;
+}
+#sppb-addon-1588565570520 {
+    box-shadow: 0 0 0 0 #ffffff;
+}
+
+#sppb-addon-wrapper-1588565570523 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+#sppb-addon-1588565570523 .sppb-addon-title {
+    font-family: Heebo;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 67px;
+    letter-spacing: 0px;
+}
+#sppb-addon-1588565570523 .sppb-addon-title {
+    margin-bottom: 20px;
+    color: #1a4169;
+}
+.sppb-addon-title {
+    display: inline-block;
+}
+@media (min-width: 1200px) {
+    .h3, h3 {
+        font-size: 1.75rem;
+    }
+}
+.h3, h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#sppb-addon-1588565570523 .sppb-addon-text-block .sppb-addon-content {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
