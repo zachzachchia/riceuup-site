@@ -424,32 +424,42 @@ h2.product-header {
 
 .image-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 2fr;
   grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "left top"
+    "left bottom";
   gap: 16px;
   height: 600px;
 }
 
+.image-left {
+  grid-area: left;
+}
+
+.image-top-right {
+  grid-area: top;
+}
+
+.image-bottom-left {
+  grid-area: bottom;
+  justify-self: start;
+  width: 48%;
+}
+
+.image-bottom-right {
+  grid-area: bottom;
+  justify-self: end;
+  width: 48%;
+}
+
+/* Common styles for all image items */
 .image-item {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  position: relative;
-}
-
-.image-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-}
-
-.image-item.large {
-  grid-row: span 2;
-}
-
-.image-item:nth-child(3),
-.image-item:nth-child(4) {
-  grid-column: 2;
+  height: 100%;
 }
 
 .image-item img {
@@ -457,6 +467,11 @@ h2.product-header {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+}
+
+.image-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .image-item:hover img {
@@ -501,39 +516,26 @@ h2.product-header {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-
-  .image-grid {
-    height: auto;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-
-  .image-item.large {
-    grid-column: span 2;
-    grid-row: auto;
-    height: 300px;
-  }
-
-  .image-item:nth-child(3),
-  .image-item:nth-child(4) {
-    grid-column: auto;
-  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .image-grid {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    height: auto;
   }
 
   .image-item {
     height: 200px;
   }
 
-  .image-item.large {
-    height: 250px;
+  .image-item img {
+    object-fit: cover;
   }
+}
+
+@media (max-width: 600px) {
 
   .section-title {
     font-size: 2.25rem;
@@ -543,6 +545,7 @@ h2.product-header {
     font-size: 1rem;
   }
 }
+
 
 
 
