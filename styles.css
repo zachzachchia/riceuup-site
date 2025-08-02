@@ -235,7 +235,6 @@ h2.product-header {
 .product-card img {
     width: 370px;
     height: 420px;
-    margin-bottom: 1rem;
 }
 
 .product-card h3 {
@@ -631,6 +630,7 @@ h2.product-header {
 /* Info */
 .product-info {
   padding: 1.5rem;
+  padding-top:0.8rem;
   text-align: center;
 }
 
@@ -662,6 +662,7 @@ h2.product-header {
   border-radius: 999px;
 }
 /* end_product_testing */
+
 
 
 
