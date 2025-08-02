@@ -530,11 +530,15 @@ h2.product-header {
   }
 
   .image-item {
-    height: 200px;
+    width: 100% !important;
+    height: auto;
+    border-radius: 8px;
   }
 
-  .image-item img {
-    object-fit: cover;
+  .image-bottom-left,
+  .image-bottom-right {
+    width: 100% !important;
+    justify-self: unset;
   }
 }
 
@@ -548,6 +552,7 @@ h2.product-header {
     font-size: 1rem;
   }
 }
+
 
 
 
