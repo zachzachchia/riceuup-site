@@ -502,7 +502,7 @@ h2.product-header {
 .title-underline {
   width: 80px;
   height: 4px;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background:  var(--primary-color);
   border-radius: 2px;
 }
 
@@ -552,6 +552,7 @@ h2.product-header {
     font-size: 1rem;
   }
 }
+
 
 
 
