@@ -131,7 +131,7 @@ footer {
 
 .hero-text {
   flex: 1;
-  min-width: 630px;
+  min-width: 750px;
   text-align: left;
 }
 
@@ -552,6 +552,7 @@ h2.product-header {
     font-size: 1rem;
   }
 }
+
 
 
 
