@@ -425,7 +425,7 @@ h2.product-header {
 .image-grid {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 3fr 1fr; /* 75% and 25% of height */
   grid-template-areas:
     "left top"
     "left bottom";
@@ -441,14 +441,18 @@ h2.product-header {
   grid-area: top;
 }
 
-.image-bottom-left {
+.image-bottom-left,
+.image-bottom-right {
   grid-area: bottom;
+  height: 100%;
+}
+
+.image-bottom-left {
   justify-self: start;
   width: 48%;
 }
 
 .image-bottom-right {
-  grid-area: bottom;
   justify-self: end;
   width: 48%;
 }
@@ -477,7 +481,6 @@ h2.product-header {
 .image-item:hover img {
   transform: scale(1.05);
 }
-
 .content-section {
   padding: 20px 0;
 }
@@ -545,6 +548,7 @@ h2.product-header {
     font-size: 1rem;
   }
 }
+
 
 
 
