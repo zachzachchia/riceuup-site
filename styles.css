@@ -425,7 +425,7 @@ h2.product-header {
 .image-grid {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
-  grid-template-rows: 3fr 1fr; /* 75% and 25% of height */
+  grid-template-rows: 2fr 1fr; 
   grid-template-areas:
     "left top"
     "left bottom";
@@ -548,6 +548,7 @@ h2.product-header {
     font-size: 1rem;
   }
 }
+
 
 
 
